@@ -1,47 +1,105 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Pashtel — демонстрационная интернет-витрина" width="94%" />
+  <img src="./assets/header.svg" alt="Pashtel" width="100%" />
 </p>
 
 <p align="center">
-  <strong>Русский</strong> · <a href="./README_EN.md">English</a> · <a href="https://github.com/mrjakeball/portfolio">Все проекты</a>
-</p>
-
-# Pashtel
-
-Демонстрационная интернет-витрина пекарни: спокойная визуальная подача, адаптивный каталог и последовательное оформление заказа.
-
-| Контекст | Значение |
-|---|---|
-| Продукт | Каталог + корзина + пятишаговый checkout |
-| Состояние | Демоверсия; платежи и реальная отправка заказов отключены |
-| Технологии | `Next.js` `TypeScript` `API validation` `Accessibility` |
-| Публикация | Витрина без исходного кода |
-
-<p align="center">
-  <a href="./assets/cover.jpg"><img src="./assets/cover.jpg" alt="Главная страница Pashtel" width="380" /></a>
-  <a href="./assets/screen-checkout-desktop.jpg"><img src="./assets/screen-checkout-desktop.jpg" alt="Пятишаговое оформление заказа Pashtel" width="380" /></a>
+  <a href="./README.md"><img src="https://img.shields.io/badge/РУССКИЙ-8B5CF6?style=for-the-badge" alt="Русский" height="29" /></a>
+  &nbsp;
+  <a href="./README_EN.md"><img src="https://img.shields.io/badge/ENGLISH-21262D?style=for-the-badge" alt="English" height="29" /></a>
 </p>
 
 <p align="center">
-  <a href="./assets/screen-home-mobile.jpg"><img src="./assets/screen-home-mobile.jpg" alt="Главная страница Pashtel на телефоне" width="180" /></a>
-  <a href="./assets/screen-checkout-mobile.jpg"><img src="./assets/screen-checkout-mobile.jpg" alt="Оформление заказа Pashtel на телефоне" width="180" /></a>
+  <a href="https://github.com/mrjakeball/portfolio"><img src="https://img.shields.io/badge/📚_ВСЕ_ПРОЕКТЫ-21262D?style=for-the-badge" alt="Все проекты" height="27" /></a>
+  <a href="https://github.com/mrjakeball"><img src="https://img.shields.io/badge/↩_ПРОФИЛЬ-21262D?style=for-the-badge&logo=github&logoColor=white" alt="Профиль" height="27" /></a>
 </p>
 
-## Путь покупателя
+---
 
-От первого знакомства с выпечкой до подтверждения состава заказа — без резких переходов и перегруженных экранов.
+# 🥐 Pashtel
 
-## Ключевые состояния
+> **Адаптивная интернет-витрина пекарни с каталогом, корзиной и последовательным оформлением заказа.**
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js-21262D?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-21262D?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/API_Validation-21262D?style=flat-square&logo=openapiinitiative&logoColor=58A6FF" alt="API validation" />
+  <img src="https://img.shields.io/badge/Accessibility-21262D?style=flat-square&logo=accessibility&logoColor=8B5CF6" alt="Accessibility" />
+</p>
+
+## 🎯 Задача проекта
+
+Создать спокойный и понятный путь от знакомства с ассортиментом до проверки готового заказа.
+
+В интерфейсе важнее последовательность и ясность, чем большое количество элементов на одном экране.
+
+## 📌 Коротко
+
+| | |
+| :--- | :--- |
+| 🛍️ **Формат** | Демонстрационная e-commerce витрина |
+| 🧺 **Сценарий** | Каталог → корзина → checkout |
+| 🪜 **Checkout** | 5 шагов |
+| 🚦 **Статус** | Демоверсия |
+| 💳 **Платежи** | Реальные платежи отключены |
+| 🔒 **Исходники** | Не включены в showcase |
+
+## 🖼️ Интерфейс
+
+<p align="center">
+  <a href="./assets/cover.jpg"><img src="./assets/cover.jpg" alt="Главная страница Pashtel" width="700" /></a>
+</p>
+
+<p align="center">
+  <a href="./assets/screen-checkout-desktop.jpg"><img src="./assets/screen-checkout-desktop.jpg" alt="Checkout Pashtel" width="700" /></a>
+</p>
+
+<p align="center">
+  <a href="./assets/screen-home-mobile.jpg"><img src="./assets/screen-home-mobile.jpg" alt="Pashtel на телефоне" width="220" /></a>
+  &nbsp;&nbsp;
+  <a href="./assets/screen-checkout-mobile.jpg"><img src="./assets/screen-checkout-mobile.jpg" alt="Checkout Pashtel на телефоне" width="220" /></a>
+</p>
+
+## 🧭 Путь покупателя
+
+1. 🥖 открыть каталог;
+2. 🔎 выбрать товар;
+3. 🧺 добавить позиции в корзину;
+4. ✏️ изменить количество при необходимости;
+5. 🧾 пройти пошаговое оформление;
+6. ✅ проверить состав заказа.
+
+## 🧩 Ключевые состояния
 
 - каталог и карточки товаров;
-- корзина с изменением количества;
-- пятишаговое оформление заказа;
-- понятные подсказки, ошибки и состояния валидации.
+- корзина;
+- изменение количества;
+- пошаговый checkout;
+- подсказки и ошибки;
+- состояния валидации;
+- адаптивное отображение.
 
-## Проверка заказа
+## 🔐 Проверка заказа
 
-Итоговая сумма пересчитывается на серверной стороне, а API повторно проверяет входные данные. Интерфейс одинаково читаем на компьютере и телефоне.
+### 🧮 Пересчёт
+
+Итоговая сумма не должна полностью зависеть от данных, пришедших с клиента — она пересчитывается на серверной стороне.
+
+### ✅ API validation
+
+Входные данные заказа повторно проверяются перед обработкой.
+
+### ♿ Accessibility
+
+Интерфейс проектируется так, чтобы состояния, сообщения и элементы управления оставались понятными не только визуально.
+
+> ℹ️ Это демонстрационный проект. Реальная оплата и отправка заказов отключены.
+
+---
 
 <p align="center">
-  <a href="https://github.com/mrjakeball/portfolio">← Вернуться к списку проектов</a>
+  <a href="https://github.com/mrjakeball/portfolio"><img src="https://img.shields.io/badge/←_КАТАЛОГ_ПРОЕКТОВ-8B5CF6?style=for-the-badge" alt="Каталог проектов" height="30" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mrjakeball"><strong>Профиль GitHub ↑</strong></a>
 </p>
