@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+  <title id="title">Pashtel</title>
+  <desc id="desc">Cream, cherry and gold project card with pastry orbit and checkout steps</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF9EF"/><stop offset="1" stop-color="#F3E3C7"/></linearGradient><radialGradient id="pastry"><stop stop-color="#FBE28D"/><stop offset=".72" stop-color="#D8A537"/><stop offset="1" stop-color="#9D6C1F"/></radialGradient></defs>
+  <rect width="640" height="260" rx="18" fill="url(#bg)"/>
+  <g transform="translate(514 105)">
+    <circle r="69" fill="none" stroke="#B7335A" opacity=".2"/>
+    <circle r="48" fill="url(#pastry)"/>
+    <circle r="22" fill="#FFF5DE" opacity=".55"/>
+    <circle cx="64" cy="-26" r="5" fill="#B7335A"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/></circle>
+  </g>
+  <g transform="translate(412 202)" fill="none" stroke="#B7335A" stroke-width="2"><circle r="8" fill="#B7335A"/><path d="M8 0h38"/><circle cx="54" r="8"/><path d="M62 0h38"/><circle cx="108" r="8"/><path d="M116 0h38"/><circle cx="162" r="8"/></g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="34" y="42" fill="#8B6B5F" font-size="16" letter-spacing="2">STOREFRONT · CHECKOUT</text>
+    <text x="34" y="104" fill="#2B1713" font-size="42" font-weight="700">Pashtel<tspan fill="#B7335A">.</tspan></text>
+    <text x="36" y="138" fill="#7A2D45" font-size="18">A bakery journey, step by step</text>
+    <g font-size="15" fill="#FFF9EF">
+      <rect x="34" y="166" width="82" height="30" rx="8" fill="#7A2D45"/><text x="49" y="187">NEXT.JS</text>
+      <rect x="124" y="166" width="112" height="30" rx="8" fill="#7A2D45"/><text x="137" y="187">TYPESCRIPT</text>
+      <rect x="244" y="166" width="100" height="30" rx="8" fill="#7A2D45"/><text x="257" y="187">CHECKOUT</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="638" height="258" rx="17" fill="none" stroke="#D4C2A8" stroke-width="2"/>
+</svg>
