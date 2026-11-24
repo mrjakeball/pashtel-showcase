@@ -19,9 +19,11 @@ The basket shows the items and total. During checkout the interface flags input 
 
 The demo ends with order review. Payments and dispatch are disabled.
 
-## Original images
+## One checkout at two sizes
 
-[Bakery storefront](assets/cover.jpg) · [Desktop checkout](assets/screen-checkout-desktop.jpg) · [Mobile checkout](assets/screen-checkout-mobile.jpg) · [Mobile storefront](assets/screen-home-mobile.jpg)
+**[Desktop checkout](assets/screen-checkout-desktop.jpg)** · The first step collects contact details. The basket summary and total remain visible alongside the form.
+
+**[Mobile checkout](assets/screen-checkout-mobile.jpg)** · Fields stack vertically. The step indicator and continue button let the customer work through the longer form in stages.
 
 <details>
 <summary>View the gallery</summary>
